@@ -1,0 +1,33 @@
+:root {
+    --bg: #e0f7fa;
+    --text: #222;
+}
+body.dark {
+    --bg: #121212;
+    --text: #eee;
+}
+body {
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bg);
+}
+#text {
+    align-items: center;
+    text-align: center;
+    color: var(--text);
+}
+h1, p {
+    color: var(--text);
+}
+li {
+    color: var(--text);
+    text-align: left;
+}
+#toggleTheme {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    color: var(--text);
+    cursor: pointer;
+}
